@@ -39,11 +39,14 @@ namespace UdemyCsharp
 
             //Console.WriteLine(Welcomer.Message);
 
-            Car samochod = new Car("Toyota");
-            Console.WriteLine(samochod.NrOfWheels);
+            //Car samochod = new Car("Toyota");
+            //Console.WriteLine(samochod.NrOfWheels);
 
-            Car samochod2 = new Car("Seat", 5);
-            Car samochod3 = new Car(samochod2);
+            //Car samochod2 = new Car("Seat", 5);
+            //Car samochod3 = new Car(samochod2);
+
+            Samochod samochod = new Samochod();
+            Console.WriteLine(samochod.pobierzMoc());
         }
     } 
 }
